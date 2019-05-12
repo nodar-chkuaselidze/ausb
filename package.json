@@ -1,0 +1,24 @@
+{
+  "name": "ausb",
+  "version": "0.0.0",
+  "description": "Experiment with several usb packages.",
+  "keywords": [
+    "usb",
+    "webusb",
+    "libusb"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/nodar-chkuaselidze/ausb.git",
+  "homepage": "https://github.com/nodar-chkuaselidze/ausb#readme",
+  "bugs": {
+    "url": "https://github.com/nodar-chkuaselidze/ausb/issues"
+  },
+  "author": "Nodari Chkuaselidze <nodar.chkuaselidze@gmail.com>",
+  "main": "lib/ausb.js",
+  "scripts": {
+    "test": "bmocha --reporter spec test/*-test.js"
+  },
+  "devDependencies": {
+    "bmocha": "^2.1.2"
+  }
+}
