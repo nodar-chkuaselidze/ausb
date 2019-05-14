@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "bmocha": "^2.1.2"
+  },
+  "dependencies": {
+    "nan": "^2.13.2"
   }
 }
