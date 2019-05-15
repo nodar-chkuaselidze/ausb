@@ -1,6 +1,6 @@
 {
   "name": "ausb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Experiment with several usb packages.",
   "keywords": [
     "usb",
@@ -23,11 +23,12 @@
   "browser": {
     "./lib/ausb": "./lib/ausb-browser.js"
   },
+  "dependencies": {
+    "loady": "~0.0.1",
+    "nan": "^2.13.2"
+  },
   "devDependencies": {
     "bmocha": "^2.1.2"
   },
-  "dependencies": {
-    "loady": "0.0.1",
-    "nan": "^2.13.2"
-  }
+  "gypfile": true
 }

@@ -1,4 +1,4 @@
-var usb = exports = module.exports = require('loady')('usb_bindings', 'usb_bindings');
+var usb = exports = module.exports = require('loady')('usb_bindings', __dirname);
 var events = require('events')
 var util = require('util')
 
