@@ -1,6 +1,6 @@
 {
   "name": "ausb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Experiment with several usb packages.",
   "keywords": [
     "usb",
@@ -16,6 +16,8 @@
   "author": "Nodari Chkuaselidze <nodar.chkuaselidze@gmail.com>",
   "main": "lib/ausb.js",
   "scripts": {
+    "install": "node-gyp rebuild",
+    "lint": "eslint lib/ test/ || exit 0",
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "browser": {
